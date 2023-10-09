@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body,html {
+            overscroll-behavior: none;
+        }
+        .box {
+            width: 100%;
+            height: 600px;
+            background-color: var(--color);
+            
+        }
+        p{position: relative;}
+        span{position: absolute; top: 50%; left: 0; transform: translateY(-50%);}
+    </style>
+</head>
+<body>
+    <div class="box" style="--color:red"></div>
+    <div class="box" style="--color:green"></div>
+    <div class="box" style="--color:yellow"></div>
+    <div class="box" style="--color:purple"></div>
+    <div class="box" style="--color:pink"></div>
+    <div class="box" style="--color:blue"></div>
+    <div class="box" style="--color:gray"></div>
+    <div class="box" style="--color:black"></div>
+    <p><span>뭐이자식들아</span></p>
+</body>
+</html>
